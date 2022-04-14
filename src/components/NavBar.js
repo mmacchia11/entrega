@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CartWidget from './CartWidget';
 
- const  Bootstrap = () =>{
+ const  Navbar = () =>{
         return(
                 <div class="container">
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -22,6 +23,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </li>
+      <li>
+        <CartWidget />
+      </li>
     </ul>
   </div>
 </nav>
@@ -31,4 +35,5 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 };
 
 
-export default  Bootstrap;
+export default  Navbar;
+

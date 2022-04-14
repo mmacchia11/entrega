@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/NavBar'
-import Bootstrap from './components/NavBar'
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
 
   <div>
-  <h1>prueba 1</h1>
   <NavBar/>
+  <ItemListContainer/>
   </div>
   );
 
