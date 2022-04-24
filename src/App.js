@@ -5,7 +5,7 @@ import ItemListContainer from './components/ItemListContainer';
 import Boton from './components/Boton';
 import Contador from './components/ItemCount';
 import { useState } from 'react';
-
+import Item from './components/Item'
 
 
 function App() {
@@ -39,7 +39,10 @@ function App() {
   texto="-" 
   esBotonDeClic={false}
   manejarClic={reiniciarContacor}/>
-  </div>
+ 
+
+
+   </div>
   );
 
   
