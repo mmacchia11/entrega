@@ -3,6 +3,7 @@ import '../Estilos/Item.css';
 import ItemList from './ItemList';
 
 
+
  const Item = ({ id, titulo, precio, img }) => {
   return (
 

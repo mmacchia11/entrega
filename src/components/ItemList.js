@@ -1,10 +1,11 @@
 import React from 'react'
 import Item from './Item';
 import { useEffect } from 'react';
+
 const Productos = [
         {
                 titulo: 'cuchara',
-                img : 'cuharas.png',
+                img : '../IMG/cuhara.jpg',
                 descripcion:'ansdlansdkasdsad',
                 id:'01',
                 precio:455
@@ -12,7 +13,7 @@ const Productos = [
         },
         {
                 titulo: 'tenedor',
-                img : 'tenedor.png',
+                img : '../IMG/tenedor.jpg',
                 descripcion:'oooooooooooooooooo',
                 id:'02',
                 precio:45
@@ -20,7 +21,7 @@ const Productos = [
         },
         {
                 titulo: 'cuchillo',
-                img : 'cuchillo.png',
+                img : '../IMG/cuchillo.png',
                 descripcion:'aaaaaaaaaaaaaaaaaa',
                 id:'03',
                 precio:25
@@ -28,7 +29,7 @@ const Productos = [
         },
         {
                 titulo: 'sarten',
-                img : 'sarten.png',
+                img : '../IMG/sarten.jpg',
                 descripcion:'sssssssssssssssss',
                 id:'04',
                 precio:155
