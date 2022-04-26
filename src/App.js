@@ -26,7 +26,7 @@ function App() {
   <div>
   <NavBar/>
 
-  <ItemListContainer/>
+  <ItemListContainer />
 
   <Contador numClics={numClics} />
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import Item from './Item';
+import { useEffect } from 'react';
 const Productos = [
         {
                 titulo: 'cuchara',
@@ -37,27 +38,53 @@ const Productos = [
 
  const ItemList = () => {
       
+        useEffect( () => { 
+                
+                
+                const promesa = new Promise((resolve, reject) =>{
+                        const rand = Math.random();
+                        console.log(rand)
+                      
+                      setTimeout(() => {
+                          if(rand <= 0.5){
+                                resolve('ok')
+                        }else{
+                                reject('Erro')
+                        }
 
-  return (
+                },2000)
+ 
+                }) 
+
+               
+               
+                
+                promesa.then(results => {
+                                console.log(Productos)
+                        })
+                        .catch(err => {
+                                console.log('Promesa Rechazada', err)
+                        })
+             
+        }, [])
+
+ return (
 
       
     <div>
-            {Productos.map(product => {
-                    return <Item 
-                    id={product.id}
-                    titulo = {product.titulo}
-                    precio = {product.precio}
-                    img = {product.img} 
-                    />
-
-
-            })
-        }
-
-
-
-
+            {
             
+                Productos.map(product => {
+                        return <Item 
+                        id={product.id}
+                        titulo = {product.titulo}
+                        precio = {product.precio}
+                        img = {product.img} 
+                        />
+                })
+             
+            }
+  
     </div>
   )
 }
