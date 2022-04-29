@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Estilos/Item.css';
-import ItemList from './ItemList';
+
 
 
 
