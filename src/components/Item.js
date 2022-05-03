@@ -1,10 +1,15 @@
 import React from 'react';
 import '../Estilos/Item.css';
-
+import ItemCount from './ItemCount';
 
 
 
  const Item = ({ id, titulo, precio, img }) => {
+
+        const onAdd = (qty) => {
+                alert(`Agregaste ${qty} productos`);
+              };
+              
   return (
 
     <div className="item">
@@ -22,6 +27,10 @@ import '../Estilos/Item.css';
                 <p>Cantinada en stock: 17</p>
         </div>
 
+        <div className="containar-contenedor">
+
+        <ItemCount  onAdd={onAdd}  initial={1} stock={5} />
+        </div>
     </div>
   
   )

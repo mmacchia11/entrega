@@ -44,3 +44,10 @@
         background-color: var(--just-white);
       }
       
+
+      .containar-contenedor{
+        display: flex;
+        height: 40px;
+        background-color: #000;
+        justify-content: center;
+      }

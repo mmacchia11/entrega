@@ -8,7 +8,8 @@ const Productos = [
                 img : '../IMG/cuhara.jpg',
                 descripcion:'ansdlansdkasdsad',
                 id:'01',
-                precio:455
+                precio:455,
+                descripcion:'1aksdna asdnasd ñalsdnasdksa dñksandñassñdlfkn  ñdsj fksdnf{ds{flksndfsdfñ dsfñkdsf ñsdfjsdlmsd'
 
         },
         {
@@ -16,7 +17,8 @@ const Productos = [
                 img : '../IMG/tenedor.jpg',
                 descripcion:'oooooooooooooooooo',
                 id:'02',
-                precio:45
+                precio:45,
+                descripcion:'2aksdna asdnasd ñalsdnasdksa dñksandñassñdlfkn  ñdsj fksdnf{ds{flksndfsdfñ dsfñkdsf ñsdfjsdlmsd'
 
         },
         {
@@ -24,7 +26,8 @@ const Productos = [
                 img : '../IMG/cuchillo.png',
                 descripcion:'aaaaaaaaaaaaaaaaaa',
                 id:'03',
-                precio:25
+                precio:25,
+                descripcion:'3aksdna asdnasd ñalsdnasdksa dñksandñassñdlfkn  ñdsj fksdnf{ds{flksndfsdfñ dsfñkdsf ñsdfjsdlmsd'
 
         },
         {
@@ -32,7 +35,8 @@ const Productos = [
                 img : '../IMG/sarten.jpg',
                 descripcion:'sssssssssssssssss',
                 id:'04',
-                precio:155
+                precio:155,
+                descripcion:'4aksdna asdnasd ñalsdnasdksa dñksandñassñdlfkn  ñdsj fksdnf{ds{flksndfsdfñ dsfñkdsf ñsdfjsdlmsd'
 
         }
 ];

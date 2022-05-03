@@ -5,6 +5,7 @@ import ItemListContainer from './components/ItemListContainer';
 import { useState } from 'react';
 import Item from './components/Item'
 import ItemCount from './components/ItemCount'
+import MoviesContainer from './components/movies/MoviesContainer';
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
 
   const onAdd = (qty) => {
     alert(`Agregaste ${qty} productos`);
-  };
+  }
 
 
   return (
@@ -27,6 +28,8 @@ function App() {
   
  
     <ItemCount  onAdd={onAdd}  initial={1} stock={5} />
+
+    <MoviesContainer />
 
    </div>
   );
